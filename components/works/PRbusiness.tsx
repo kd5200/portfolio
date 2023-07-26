@@ -2,7 +2,7 @@ import React from "react";
 import { animate, motion } from "framer-motion";
 import { TiArrowForward } from "react-icons/ti";
 
-const Horizonmedia = () => {
+const PR = () => {
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -11,50 +11,55 @@ const Horizonmedia = () => {
       className="w-full"
     >
       <h3 className="flex gap-1 font-medium text-xl font-titleFont">
-        Programmatic Campaign Manager{" "}
-        <span className="text-textGreen tracking-wide">@HorizonMedia</span>
+        Google ads manager{" "}
+        <span className="text-textGreen tracking-wide">@PR-Business</span>
       </h3>
       <p className="text-sm mt-1 font-medium text-textDark">
-        Aug 2022 - Present
+        Dec 2021 - Aug 2022
       </p>
       <ul className="mt-6 flex flex-col gap-3">
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Launch and Optimize Programmatic campaigns within the our agencies ad
-          server.
+          Launch & manage Google Ads Campaigns
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Provide reports on potential data center fraudulent activity.
+          Optimize Google Ad Campaigns.{" "}
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Generate tracking tags to track Interactivity with ads that are
-          running within our ad server.{" "}
+          Integrate internal analytics dashboard as well as google analytics
+          dashboard to each customers campaigns.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Troubleshoot issues within campaigns and floodlights.{" "}
+          Communicate With Clients about changes they want made to their
+          campaigns.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Communicate with 3rd party companies who we collaborate with for
-          weekly status reports and troubleshooting tracking pixels or report
-          metrics descrepencies.{" "}
+          Handle Ad Budget Optimization{" "}
+        </li>
+        <li className="text-base flex gap-2 text-textDark">
+          <span className="text-textGreen mt-1">
+            <TiArrowForward />
+          </span>
+          Configure google tag manager container/triggers to help clients keep
+          track of how customers interact with their website.{" "}
         </li>
       </ul>
     </motion.div>
   );
 };
 
-export default Horizonmedia;
+export default PR;
