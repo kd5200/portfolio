@@ -5,6 +5,7 @@ import RightSide from "@/components/RightSide";
 import { motion } from "framer-motion";
 import Banner from "@/components/Banner";
 import About from "@/components/About";
+import Experience from "@/components/Experience";
 
 export default function Home() {
   return (
@@ -12,10 +13,10 @@ export default function Home() {
       <Head>
         <title>Kareem Davis II</title>
         <meta name="description" content="Kareem Davis II Portfolio" />
-
+        <meta name="viewport" content="width-device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="font-bodyFont w-full h-screen bg-bodyColor text-textLight overflow-x-hidden overflow-y-scroll">
+      <main className="w-full h-screen font-bodyFont bg-bodyColor text-textLight overflow-x-hidden overflow-y-scroll">
         <Navbar />
         <div className="w-full h-[88vh] xl:flex items-center gap-20 justify-between">
           <motion.div
@@ -26,10 +27,10 @@ export default function Home() {
           >
             <LeftSide />
           </motion.div>
-          <div className="h-[88vh]w-full mx-auto p-4">
+          <div className="h-[88vh] mx-auto p-4">
             <Banner />
             <About />
-            {/* Experience */}
+            <Experience />
             {/* Projects */}
             {/* Archive */}
             {/* Contact */}

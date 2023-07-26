@@ -21,7 +21,7 @@ const Banner = () => {
         transition={{ duration: 0.5, delay: 0.7 }}
         className="text-4xl lgl:text-6xl font-titleFont font-semibold flex flex-col"
       >
-        Kareem Davis II.{" "}
+        Kareem Davis II{" "}
         <span className="text-textDark mt-2 lgl:mt-4">I build shit</span>
       </motion.h1>
       <motion.p
@@ -41,7 +41,7 @@ const Banner = () => {
         <a href="https://github.com/kd5200/OpenAI_ChatGPT_rep" target="_blank">
           <span className="text-textGreen inline-flex relative cursor-pointer h-7 overflow-x-hidden group">
             Learn More
-            <span className="absolute w-full h-[1px]bg-textGreen left-0 bottom-1-translate-x-[110%]group-hover:translate-x-0 transition-transform duration-500"></span>
+            <span className="absolute w-full h-[1px] bg-textGreen left-0 bottom-1 -translate-x-[110%] group-hover:translate-x-0 transition-transform duration-500"></span>
           </span>
         </a>
       </motion.p>
