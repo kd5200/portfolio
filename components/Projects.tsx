@@ -30,7 +30,7 @@ const Projects = () => {
               Featured Project
             </p>
             <h3 className="text-2xl font-bold">ChatGPT clone</h3>
-            <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
+            <p className="border-2 border-pink-500 bg-gray-950 text-sm md:text-base p-2 md:p-6 rounded-md">
               This project is a ChatGPT clone using OpenAI's API. I named the
               chatbot <span className="text-textGreen">"Jarvis"</span> as you
               can see in the prompt section. Powered by{" "}
@@ -51,14 +51,14 @@ const Projects = () => {
             </ul>
             <div className="text-2xl flex gap-4">
               <a
-                className="hover:text-textGreen duration-300"
+                className="hover:text-textPink duration-300"
                 href="https://github.com/kd5200/OpenAI_ChatGPT_rep"
                 target="_blank"
               >
                 <TbBrandGithub />
               </a>
               <a
-                className="hover:text-textGreen duration-300"
+                className="hover:text-textPink duration-300"
                 href="https://chatgpt-clone-black.vercel.app/"
                 target="_blank"
               >
@@ -87,17 +87,17 @@ const Projects = () => {
               Featured Project
             </p>
             <h3 className="text-2xl font-bold">Team OOO Calendar</h3>
-            <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 xl:-mr-16 rounded-md">
+            <p className="border-2 border-teal-400 bg-gray-950 text-sm md:text-base p-2 md:p-6 xl:-mr-16 rounded-md">
               I created this calendar app for my team members/coworkers to use.
               I took on this project so that my team would no longer have to
               worry about having to use a google calendar spread sheet and
               repeatedly update the spread sheet formula when a new calendar
               year starts. This vue calendar is a simple and customizable
               calendar component built with{" "}
-              <span className="text-fuchsia-500">Vue.js</span>. It allows my
-              team to view, create, and manage events and coordinate our time
-              off efficiently. Lastly, I used{" "}
-              <span className="text-fuchsia-500">
+              <span className="text-pink-400">Vue.js</span>. It allows my team
+              to view, create, and manage events and coordinate our time off
+              efficiently. Lastly, I used{" "}
+              <span className="text-pink-400">
                 google firebase for hosting and database services
               </span>{" "}
               to keep things quick and simple.

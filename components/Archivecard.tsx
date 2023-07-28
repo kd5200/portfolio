@@ -12,7 +12,7 @@ interface Props {
 const Archivecard = ({ title, des, listItem, link }: Props) => {
   return (
     <a href={link} target="_blank">
-      <div className="w-full h-80 rounded-lg bg-[#112240] p-7 flex flex-col gap-6 hover:-translate-y-2 transition-transform duration-300 group">
+      <div className="border-2 border-pink-400	w-full h-80 rounded-lg bg-[#000000] p-7 flex flex-col gap-6 hover:-translate-y-2 transition-transform duration-300 group">
         <div className="flex justify-between items-center">
           <FaRegFolderOpen className="text-4xl text-textGreen" />
           <RxOpenInNewWindow className="text-4xl hover:text-textGreen" />

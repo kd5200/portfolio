@@ -30,7 +30,7 @@ const Experience = () => {
             onClick={handleHmi}
             className={`${
               workHmi
-                ? "border-1-textGreen text-textGreen"
+                ? "border-1-textGreen text-textPink"
                 : "border-1-textDark text-textDark"
             } border-1-2 bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
           >
@@ -40,8 +40,8 @@ const Experience = () => {
             onClick={handlePR}
             className={`${
               workPR
-                ? "border-1-textGreen text-textGreen"
-                : "border-1-text    Dark text-textDark"
+                ? "border-1-textGreen text-textPink"
+                : "border-1-textDark text-textDark"
             } border-1-2 bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
           >
             PR Business
