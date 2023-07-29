@@ -23,7 +23,7 @@ const Banner = () => {
       >
         Kareem Davis II{" "}
         <span className="text-textDark mt-2 lgl:mt-4">
-          I build, design, & market things for the web.
+          I build, design, & market things for the web..
         </span>
       </motion.h1>
       <motion.p
