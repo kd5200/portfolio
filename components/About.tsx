@@ -1,8 +1,6 @@
 import React from "react";
 import SectionTitle from "./SectionTitle";
 import { AiFillThunderbolt } from "react-icons/ai";
-import Image from "next/image";
-import { profileimg } from "@/public/assets";
 
 const About = () => {
   return (
@@ -125,9 +123,9 @@ const About = () => {
         <div className="w-full lgl:w-1/3 h-80 relative group">
           <div className="absolute w-full h-80 -left-6 -top-6 rounded-lg">
             <div className="w-full h-full relative z-20 flex pl-6 lgl:pl-0">
-              <Image
+              <img
                 className="rounded-lg h-full object-cover"
-                src={profileimg}
+                src="/assets/images/headshot.png"
                 alt="profileimg"
               />
               <div className="hidden lgl:inline-block absolute w-full h-80 bg-textGreen/20 rounded-md top-0 left-0 group-hover:bg-transparent duration-300"></div>

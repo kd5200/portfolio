@@ -1,8 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import SectionTitle from "./SectionTitle";
-import Image from "next/image";
-import { calimg, gptimg } from "@/public/assets";
 import { TbBrandGithub } from "react-icons/tb";
 import { RxOpenInNewWindow } from "react-icons/rx";
 
@@ -19,9 +17,9 @@ const Projects = () => {
             target="_blank"
           >
             <div>
-              <Image
+              <img
                 className="w-full h-full object-contain"
-                src={gptimg}
+                src="/assets/images/Cloneshot.png"
                 alt="gptimg"
               />
             </div>
@@ -76,9 +74,9 @@ const Projects = () => {
             target="_blank"
           >
             <div>
-              <Image
+              <img
                 className="w-full h-full object-contain"
-                src={calimg}
+                src="/assets/images/calendar.png"
                 alt="calimg"
               />
             </div>
