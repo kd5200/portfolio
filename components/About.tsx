@@ -18,7 +18,7 @@ const About = () => {
             University and Florida Atlantic University. As mentioned above, I am
             a self-taught programmer and my first language conceived was python.
             Forbye, I am skilled in digital marketing, cloud computing, &
-            digital analysis.
+            digital analysis...
           </p>
           <p>
             The compassion I once had for the game of football has transitioned
