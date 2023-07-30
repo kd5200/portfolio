@@ -13,9 +13,8 @@ const Contacts = () => {
       <p>
         I am currently looking for new opportunities that involve more of a
         technical role within software development no matter what the industry
-        is. Please text me (561-528-0755) regarding my availability so that both
-        parties can communicate at a convenient time. Thanks for visiting my
-        page!
+        is. Please email me regarding my availability so that both parties can
+        communicate at a convenient time. Thanks for visiting my page!
       </p>
       <a href="mailto:daviskareem92@gmail.com">
         <button className="w-40 h-14 border border-textGreen mt-6 font-titleFont text-sm text-textGreen tracking-wider rounded-md hover:bg-hoverColor duration-300">
