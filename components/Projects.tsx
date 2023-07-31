@@ -86,17 +86,17 @@ const Projects = () => {
               Featured Project
             </p>
             <h3 className="text-2xl font-bold">Team OOO Calendar</h3>
-            <p className="border-2 border-teal-400 bg-gray-950 text-sm md:text-base p-2 md:p-6 xl:-mr-16 rounded-md">
+            <p className="border-2 border-pink-500 bg-gray-950 text-sm md:text-base p-2 md:p-6 xl:-mr-16 rounded-md">
               I created this calendar app for my team members/coworkers to use.
               I took on this project so that my team would no longer have to
               worry about having to use a google calendar spread sheet and
               repeatedly update the spread sheet formula when a new calendar
               year starts. This vue calendar is a simple and customizable
               calendar component built with{" "}
-              <span className="text-pink-400">Vue.js</span>. It allows my team
+              <span className="text-textGreen">Vue.js</span>. It allows my team
               to view, create, and manage events and coordinate our time off
               efficiently. Lastly, I used{" "}
-              <span className="text-pink-400">
+              <span className="text-textGreen">
                 google firebase for hosting and database services
               </span>{" "}
               to keep things quick and simple.

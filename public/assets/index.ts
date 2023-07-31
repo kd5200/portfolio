@@ -1,4 +1,4 @@
-import logo from "./images/wolf.png";
+import logo from "./images/logo.png";
 import profileimg from "./images/headshot.png";
 import gptimg from "./images/Cloneshot.png";
 import calimg from "./images/calendar.png";
