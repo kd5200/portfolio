@@ -33,7 +33,7 @@ const Navbar = () => {
   }
 
   return (
-    <div className="w-full shadow-navbarShadow h-20 lg:h-[12vh] sticky top-0 z-50 bg-bodyColor px-4">
+    <div className="w-full shadow-navbarShadow h-20 lg:h-[12vh] sticky top-0 z-50 bg-zinc-950 px-4">
       <div className="max-w-container h-full mx-auto py-1 font-titleFont flex items-center justify-between">
         <motion.div
           initial={{ opacity: 0 }}
@@ -142,7 +142,7 @@ const Navbar = () => {
               initial={{ x: 20, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 0.1 }}
-              className="w-[80%] h-full overflow-y-scroll scrollbarHide bg-[#112240] flex flex-col items-center px-4 py-10 relative"
+              className="w-[80%] h-full overflow-y-scroll scrollbarHide bg-gradient-to-b from-gray-950 to-stone-900 flex flex-col items-center px-4 py-10 relative"
             >
               <MdOutlineClose
                 onClick={() => setShowMenu(false)}
@@ -173,7 +173,7 @@ const Navbar = () => {
                       animate={{ x: 0, opacity: 1 }}
                       transition={{ duration: 0.2, delay: 0.2, ease: "easeIn" }}
                     >
-                      <span className="text-textGreen">01.</span>About
+                      <span className="text-textPink">01.</span>About
                     </motion.li>
                   </Link>
                   <Link
@@ -186,7 +186,7 @@ const Navbar = () => {
                       animate={{ x: 0, opacity: 1 }}
                       transition={{ duration: 0.2, delay: 0.3, ease: "easeIn" }}
                     >
-                      <span className="text-textGreen">02.</span>Experience
+                      <span className="text-textPink">02.</span>Experience
                     </motion.li>
                   </Link>
                   <Link
@@ -199,7 +199,7 @@ const Navbar = () => {
                       animate={{ x: 0, opacity: 1 }}
                       transition={{ duration: 0.2, delay: 0.4, ease: "easeIn" }}
                     >
-                      <span className="text-textGreen">03.</span>Projects
+                      <span className="text-textPink">03.</span>Projects
                     </motion.li>
                   </Link>
                   <Link
@@ -212,11 +212,11 @@ const Navbar = () => {
                       animate={{ y: 0, opacity: 1 }}
                       transition={{ duration: 0.1, delay: 0.1 }}
                     >
-                      <span className="text-textGreen">04.</span>Contact
+                      <span className="text-textPink">04.</span>Contact
                     </motion.li>
                   </Link>
                 </ul>
-                <a href="/assets/resume.pdf" target="_blank">
+                {/* <a href="/assets/resume.pdf" target="_blank">
                   <motion.button
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
@@ -225,10 +225,10 @@ const Navbar = () => {
                   >
                     Resume
                   </motion.button>
-                </a>
+                </a> */}
                 <div>
                   <motion.a href="https://github.com/kd5200" target="_blank">
-                    <span className="w-10 h-10 text-xl bg-bodyColor border-[1px] border-zinc-700 hover:border-textGreen text-zinc-200 rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
+                    <span className="w-10 h-10 text-xl bg-bodyColor border-[1px] border-zinc-700 hover:border-textPink text-zinc-200 rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
                       <TbBrandGithub />
                     </span>
                   </motion.a>
@@ -236,7 +236,7 @@ const Navbar = () => {
                     href="https://www.linkedin.com/in/kareem-d-b69a8a105/"
                     target="_blank"
                   >
-                    <span className="w-10 h-10 text-xl bg-bodyColor border-[1px] border-zinc-700 hover:border-textGreen text-zinc-200 rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
+                    <span className="w-10 h-10 text-xl bg-bodyColor border-[1px] border-zinc-700 hover:border-textPink text-zinc-200 rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
                       <SlSocialLinkedin />
                     </span>
                   </motion.a>
@@ -244,7 +244,7 @@ const Navbar = () => {
                     href="https://twitter.com/King_KD_10"
                     target="_blank"
                   >
-                    <span className="w-10 h-10 text-xl bg-bodyColor border-[1px] border-zinc-700 hover:border-textGreen text-zinc-200 rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
+                    <span className="w-10 h-10 text-xl bg-bodyColor border-[1px] border-zinc-700 hover:border-textPink text-zinc-200 rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
                       <TbBrandTwitter />
                     </span>
                   </motion.a>
@@ -252,7 +252,7 @@ const Navbar = () => {
                     href="https://www.instagram.com/askari_ll/"
                     target="_blank"
                   >
-                    <span className="w-10 h-10 text-xl bg-bodyColor border-[1px] border-zinc-700 hover:border-textGreen text-zinc-200 rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
+                    <span className="w-10 h-10 text-xl bg-bodyColor border-[1px] border-zinc-700 hover:border-textPink text-zinc-200 rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
                       <SlSocialInstagram />
                     </span>
                   </motion.a>

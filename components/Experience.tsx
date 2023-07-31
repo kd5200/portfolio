@@ -31,8 +31,8 @@ const Experience = () => {
             className={`${
               workHmi
                 ? "border-1-textGreen text-textPink"
-                : "border-1-textDark text-textDark"
-            } border-1-2 bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
+                : "border-1-hoverColor text-textDark"
+            } border-1-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
           >
             Horizon Media
           </li>
@@ -41,8 +41,8 @@ const Experience = () => {
             className={`${
               workPR
                 ? "border-1-textGreen text-textPink"
-                : "border-1-textDark text-textDark"
-            } border-1-2 bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
+                : "border-1-hoverColor text-textDark"
+            } border-1-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
           >
             PR Business
           </li>

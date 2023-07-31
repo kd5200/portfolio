@@ -21,6 +21,18 @@ const Archive = () => {
           listItem={["Reactjs", "OpenAI", "Vercel"]}
           link="https://github.com/kd5200/Dalle-clone"
         />
+        <Archivecard
+          title="Dalle clone"
+          des="Insert dalle clone description"
+          listItem={["Reactjs", "OpenAI", "Vercel"]}
+          link="https://github.com/kd5200/Dalle-clone"
+        />
+        <Archivecard
+          title="Dalle clone"
+          des="Insert dalle clone description"
+          listItem={["Reactjs", "OpenAI", "Vercel"]}
+          link="https://github.com/kd5200/Dalle-clone"
+        />
         {showMore && (
           <>
             <motion.div
@@ -38,7 +50,7 @@ const Archive = () => {
           </>
         )}
       </div>
-      <div>
+      <div className="mt-12 flex items-center justify-center">
         {showMore ? (
           <button
             onClick={() => setShowMore(false)}

@@ -46,7 +46,7 @@ const Projects = () => {
               <li>HTML</li>
               <li>CSS</li>
               <li>OpenAI</li>
-              <li>Vercel/render deployment (server/client side)</li>
+              <li>Vercel/render</li>
             </ul>
             <div className="text-2xl flex gap-4">
               <a
@@ -104,7 +104,7 @@ const Projects = () => {
             <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
               <li>Vue.js</li>
               <li>Javascript</li>
-              <li>Google Firebase (Deployment/Database storeage)</li>
+              <li>Google Firebase</li>
             </ul>
             <div className="text-2xl flex gap-4">
               <a
