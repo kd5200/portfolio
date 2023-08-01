@@ -40,12 +40,12 @@ const Banner = () => {
         in the industry. Lastly, I am highly motivated and eager to learn more
         about software development and cloud computing from senior developers
         within a professional environment.{" "}
-        <a href="https://github.com/kd5200/OpenAI_ChatGPT_rep" target="_blank">
+        {/* <a href="https://github.com/kd5200/OpenAI_ChatGPT_rep" target="_blank">
           <span className="text-textGreen inline-flex relative cursor-pointer h-7 overflow-x-hidden group">
             Learn More
             <span className="absolute w-full h-[1px] bg-textGreen left-0 bottom-1 -translate-x-[110%] group-hover:translate-x-0 transition-transform duration-500"></span>
           </span>
-        </a>
+        </a> */}
       </motion.p>
       {/* <motion.button
         initial={{ y: 10, opacity: 0 }}

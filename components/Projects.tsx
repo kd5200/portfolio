@@ -29,7 +29,7 @@ const Projects = () => {
               Featured Project
             </p>
             <h3 className="text-2xl font-bold">ChatGPT clone</h3>
-            <p className="border-2 border-pink-500 bg-gray-950 text-sm md:text-base p-2 md:p-6 rounded-md">
+            <p className="border-2 border-pink-500 bg-gray-700 text-sm md:text-base p-2 md:p-6 xl:-ml-32 rounded-md">
               This project is a ChatGPT clone using OpenAI's API. I named the
               chatbot <span className="text-textGreen">"Jarvis"</span> as you
               can see in the prompt section. Powered by{" "}
@@ -50,14 +50,14 @@ const Projects = () => {
             </ul>
             <div className="text-2xl flex gap-4">
               <a
-                className="hover:text-textPink duration-300"
+                className="hover:text-textGreen duration-300"
                 href="https://github.com/kd5200/OpenAI_ChatGPT_rep"
                 target="_blank"
               >
                 <TbBrandGithub />
               </a>
               <a
-                className="hover:text-textPink duration-300"
+                className="hover:text-textGreen duration-300"
                 href="https://chatgpt-clone-black.vercel.app/"
                 target="_blank"
               >
@@ -86,7 +86,7 @@ const Projects = () => {
               Featured Project
             </p>
             <h3 className="text-2xl font-bold">Team OOO Calendar</h3>
-            <p className="border-2 border-pink-500 bg-gray-950 text-sm md:text-base p-2 md:p-6 xl:-mr-16 rounded-md">
+            <p className="border-2 border-pink-500 bg-gray-700 text-sm md:text-base p-2 md:p-6 xl:-mr-16 rounded-md">
               I created this calendar app for my team members/coworkers to use.
               I took on this project so that my team would no longer have to
               worry about having to use a google calendar spread sheet and
