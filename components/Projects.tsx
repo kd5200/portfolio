@@ -38,7 +38,10 @@ const Projects = () => {
               to generate responses to user input. Integration with{" "}
               <span className="text-textGreen">
                 OpenAI's GPT-3.5-turbo model coming soon!
-              </span>
+              </span>{" "}
+              (<span className="text-yellow-200">Notice</span>: I am using
+              renders' free-tier for server-side deployment so there may be a
+              delay in functioning for this project.)
             </p>
             <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
               <li>Vite</li>
@@ -154,7 +157,10 @@ const Projects = () => {
               extension of GPT-3 that parses text prompts and then responds not
               with words but in pictures. Simpily it is an AI system that can
               create realistic images and art from a description in{" "}
-              <span className="text-textGreen">natural language</span>.
+              <span className="text-textGreen">natural language</span>. (
+              <span className="text-yellow-200">Notice</span>: I am using
+              renders' free-tier for server-side deployment so there may be a
+              delay in functioning for this project.)
             </p>
             <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
               <li>Vite</li>
