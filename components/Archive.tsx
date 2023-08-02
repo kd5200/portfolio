@@ -16,22 +16,22 @@ const Archive = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-10 lgl:px-10">
         <Archivecard
-          title="Dalle clone"
-          des="Insert dalle clone description"
-          listItem={["Reactjs", "OpenAI", "Vercel"]}
-          link="https://github.com/kd5200/Dalle-clone"
+          title="OOO App"
+          des="Calendar app using the Flask framework"
+          listItem={["Python", "Flask"]}
+          link="https://github.com/kd5200/OOO_app"
         />
         <Archivecard
-          title="Dalle clone"
-          des="Insert dalle clone description"
-          listItem={["Reactjs", "OpenAI", "Vercel"]}
-          link="https://github.com/kd5200/Dalle-clone"
+          title="Python to-do app"
+          des="First project I've built for a software developer interview. One of my first ever projects"
+          listItem={["Flask", "Python", "Javascript", "HTML"]}
+          link="https://github.com/kd5200/python-todo-app"
         />
         <Archivecard
-          title="Dalle clone"
-          des="Insert dalle clone description"
-          listItem={["Reactjs", "OpenAI", "Vercel"]}
-          link="https://github.com/kd5200/Dalle-clone"
+          title="Nest.js task app"
+          des="I built this app to gather a better understanding of Nest.js and how its structured. This was also an opportunity to work on creating API's (tested in Postman to confirm if these API's work) and improving my skills in typescript."
+          listItem={["Nest.js", "Typescript", "Javascript"]}
+          link="https://github.com/kd5200/Nestjs-experiment/tree/main"
         />
         {showMore && (
           <>
@@ -41,10 +41,10 @@ const Archive = () => {
               transition={{ delay: 0.1 }}
             >
               <Archivecard
-                title="Dalle clone 2"
-                des="Insert dalle clone description"
-                listItem={["Reactjs", "OpenAI", "Vercel"]}
-                link="https://github.com/kd5200/Dalle-clone"
+                title="Backroads Tourist App"
+                des="Building a static tourist app using React.js"
+                listItem={["Reactjs", "Javascript", "HTML", "CSS"]}
+                link="https://github.com/kd5200/Backroads-tourist-app"
               />
             </motion.div>
           </>

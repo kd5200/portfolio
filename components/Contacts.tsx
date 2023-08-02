@@ -11,10 +11,10 @@ const Contacts = () => {
       </p>
       <h2 className="font-titleFont text-5xl font-semibold">Get in Contact</h2>
       <p>
-        I am currently looking for new opportunities that involve more of a
-        technical role within software development no matter what the industry
-        is. Please email me regarding my availability so that both parties can
-        communicate at a convenient time. Thanks for visiting my page!
+        I am currently open to new opportunities that involve more of a
+        technical role within software development within any industry. Please
+        email me regarding my availability so that both parties can communicate
+        at a convenient time. Thanks for visiting my page!
       </p>
       <a href="mailto:daviskareem92@gmail.com">
         <button className="w-40 h-14 border border-textPink mt-6 font-titleFont text-sm text-textGreen tracking-wider rounded-md hover:bg-hoverColor duration-300">

@@ -125,6 +125,65 @@ const Projects = () => {
           </div>
         </div>
         {/* Project 3 */}
+        <div className="flex flex-col xl:flex-row gap-6">
+          <a
+            className="w-full flex flex-col items-center justify-center gap-28 mt-10"
+            href="https://dalle-clone-2.vercel.app/"
+            target="_blank"
+          >
+            <div>
+              <img
+                className="w-full h-full object-contain"
+                src="/assets/images/Dalle.png"
+                alt="dalleimg"
+              />
+            </div>
+          </a>
+          <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right xl:ml-16 z-10">
+            <p className="font-titleFont text-textGreen text-sm tracking-wide">
+              Featured Project
+            </p>
+            <h3 className="text-2xl font-bold">DALL·E clone</h3>
+            <p className="border-2 border-pink-500 bg-gray-700 text-sm md:text-base p-2 md:p-6 xl:-ml-32 rounded-md">
+              This project is a DALL·E clone using{" "}
+              <span className="text-textGreen">
+                OpenAI's API as well and MongoDB
+              </span>{" "}
+              to store the AI generated images & posts.{" "}
+              <span className="text-textGreen">DALL·E</span> is a natural
+              extension of GPT-3 that parses text prompts and then responds not
+              with words but in pictures. Simpily it is an AI system that can
+              create realistic images and art from a description in{" "}
+              <span className="text-textGreen">natural language</span>.
+            </p>
+            <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
+              <li>Vite</li>
+              <li>Javascript</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>OpenAI</li>
+              <li>MongoDB</li>
+              <li>Cloudinary</li>
+              <li>Vercel/render</li>
+            </ul>
+            <div className="text-2xl flex gap-4">
+              <a
+                className="hover:text-textGreen duration-300"
+                href="https://github.com/kd5200/Dalle-clone"
+                target="_blank"
+              >
+                <TbBrandGithub />
+              </a>
+              <a
+                className="hover:text-textGreen duration-300"
+                href="https://dalle-clone-2.vercel.app/"
+                target="_blank"
+              >
+                <RxOpenInNewWindow />
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );
