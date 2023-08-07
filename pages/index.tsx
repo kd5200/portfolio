@@ -18,7 +18,7 @@ export default function Home() {
         <title>Kareem Davis II</title>
         <meta name="description" content="Kareem Davis II Portfolio" />
         <meta name="viewport" content="width-device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/wolf.ico" />
       </Head>
       <main className="w-full h-screen font-bodyFont bg-gradient-to-b from-gray-950 to-stone-900 text-textLight overflow-x-hidden overflow-y-scroll scrollbar scrollbar-track-textDark/20 scrollbar-thumb-textDark/60">
         <Navbar />
