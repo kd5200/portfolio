@@ -155,7 +155,7 @@ const Projects = () => {
               to store the AI generated images & posts.{" "}
               <span className="text-textGreen">DALL·E</span> is a natural
               extension of GPT-3 that parses text prompts and then responds not
-              with words but in pictures. Simpily it is an AI system that can
+              with words but in pictures.Simpily it is an AI system that can
               create realistic images and art from a description in{" "}
               <span className="text-textGreen">natural language</span>. (
               <span className="text-yellow-200">Notice</span>: I am using
@@ -164,9 +164,7 @@ const Projects = () => {
             </p>
             <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
               <li>Vite</li>
-              <li>Javascript</li>
-              <li>HTML</li>
-              <li>CSS</li>
+              <li>Javascript/HTML/CSS</li>
               <li>OpenAI</li>
               <li>MongoDB</li>
               <li>Cloudinary</li>
