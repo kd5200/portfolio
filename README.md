@@ -6,6 +6,14 @@ This project was deployed using an AWS S3 bucket.
 
 #
 
+## Website Infrastructure
+
+#
+
+![](./public/assets/images/Diagram.png)
+
+#
+
 ## Images of website
 
 #
