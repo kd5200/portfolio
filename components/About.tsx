@@ -29,7 +29,7 @@ const About = () => {
           <p>Here are a few technologies I have recently worked with:</p>
           <ul className="max-w-[450px] text-sm font-titleFont grid grid-cols-2 gap-2 mt-6">
             <li className="flex item-center gap-2">
-              <span className="text-textGreen">
+              <span className="text-textPink">
                 <AiFillThunderbolt />
               </span>
               Javascript (ES5+)
@@ -47,13 +47,13 @@ const About = () => {
               Nest.js
             </li>
             <li className="flex item-center gap-2">
-              <span className="text-textGreen">
+              <span className="text-textPink">
                 <AiFillThunderbolt />
               </span>
               Vue.js
             </li>
             <li className="flex item-center gap-2">
-              <span className="text-textGreen">
+              <span className="text-textPink">
                 <AiFillThunderbolt />
               </span>
               React.js
@@ -71,13 +71,13 @@ const About = () => {
               MongoDB
             </li>
             <li className="flex item-center gap-2">
-              <span className="text-textGreen">
+              <span className="text-textPink">
                 <AiFillThunderbolt />
               </span>
               Tailwindcss
             </li>
             <li className="flex item-center gap-2">
-              <span className="text-textGreen">
+              <span className="text-textPink">
                 <AiFillThunderbolt />
               </span>
               PostgresDB
@@ -95,13 +95,13 @@ const About = () => {
               AWS (certified)
             </li>
             <li className="flex item-center gap-2">
-              <span className="text-textGreen">
+              <span className="text-textPink">
                 <AiFillThunderbolt />
               </span>
               Firebase
             </li>
             <li className="flex item-center gap-2">
-              <span className="text-textGreen">
+              <span className="text-textPink">
                 <AiFillThunderbolt />
               </span>
               Python 3
