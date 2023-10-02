@@ -28,10 +28,10 @@ const Archive = () => {
           link="https://github.com/kd5200/python-todo-app"
         />
         <Archivecard
-          title="Nest.js task app"
-          des="I built this app to gather a better understanding of Nest.js and how its structured. This was also an opportunity to work on creating API's (tested in Postman to confirm if these API's work) and improving my skills in typescript."
-          listItem={["Nest.js", "Typescript", "Javascript"]}
-          link="https://github.com/kd5200/Nestjs-experiment/tree/main"
+          title="First Mind Tattoos"
+          des="This website was built in colaboration with my partner for a client tatoo shop in Jacksonville, FL"
+          listItem={["Next.js", "Typescript", "Javascript"]}
+          link="https://firstmindcustom.com/"
         />
         {showMore && (
           <>
