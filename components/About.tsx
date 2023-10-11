@@ -12,7 +12,7 @@ const About = () => {
       <div className="flex flex-col lgl:flex-row gap-16">
         <div className="w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
           <p>
-            I am an ex-collegiate athlete the attended Pennsylvania State
+            I am an ex-collegiate athlete that attended Pennsylvania State
             University and Florida Atlantic University. As mentioned above, I am
             a self-taught programmer and my first language conceived was python.
             Forbye, I am skilled in digital marketing, cloud computing, &
