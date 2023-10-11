@@ -16,10 +16,10 @@ const Archive = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-10 lgl:px-10">
         <Archivecard
-          title="OOO App"
-          des="Calendar app using the Flask framework"
-          listItem={["Python", "Flask"]}
-          link="https://github.com/kd5200/OOO_app"
+          title="Healthcare Consulting"
+          des="This website was created by myself and my business partner for a client in the healthcare industry"
+          listItem={["Next.js", "Tailwind.css", "Javascript"]}
+          link="https://www.kandghealthcareconsultingservices.com/"
         />
         <Archivecard
           title="Python to-do app"
