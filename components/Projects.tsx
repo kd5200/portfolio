@@ -13,7 +13,7 @@ const Projects = () => {
         <div className="flex flex-col xl:flex-row gap-6">
           <a
             className="w-full flex flex-col items-center justify-center gap-28 mt-10"
-            href="https://chatgpt-clone-black.vercel.app/"
+            href="https://www.kandghealthcareconsultingservices.com/"
             target="_blank"
           >
             <div>
