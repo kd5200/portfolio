@@ -19,7 +19,7 @@ const Projects = () => {
             <div>
               <img
                 className="w-full h-full object-contain"
-                src="/assets/images/Cloneshot.png"
+                src="/assets/images/healthcare.png"
                 alt="gptimg"
               />
             </div>
@@ -28,40 +28,37 @@ const Projects = () => {
             <p className="font-titleFont text-textGreen text-sm tracking-wide">
               Featured Project
             </p>
-            <h3 className="text-2xl font-bold">ChatGPT clone</h3>
+            <h3 className="text-2xl font-bold">K&G Healthcare Services</h3>
             <p className="border-2 border-pink-500 bg-gray-700 text-sm md:text-base p-2 md:p-6 xl:-ml-32 rounded-md">
-              This project is a ChatGPT clone using OpenAI's API. I named the
-              chatbot <span className="text-textGreen">"Jarvis"</span> as you
-              can see in the prompt section. Powered by{" "}
-              <span className="text-textGreen">OpenAI's GPT-3 model</span>. The
-              chatbot is trained on a dataset of conversations and can be used
-              to generate responses to user input. Integration with{" "}
-              <span className="text-textGreen">
-                OpenAI's GPT-3.5-turbo model coming soon!
-              </span>{" "}
-              (<span className="text-yellow-200">Notice</span>: I am using
-              renders' free-tier for server-side deployment so there may be a
-              delay in functioning for this project.)
+              This project was built for a client who wanted to have a new
+              website built for her healthcare services business. Most of this
+              project was built using{" "}
+              <span className="text-textGreen">Next.js</span>. This static web
+              app is hosted on <span className="text-textGreen">AWS</span> and
+              the only integration used is{" "}
+              <span className="text-textGreen">zapier</span> leveraging their
+              webhooks.
             </p>
             <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
-              <li>Vite</li>
+              <li>Next.js</li>
               <li>Javascript</li>
               <li>HTML</li>
               <li>CSS</li>
-              <li>OpenAI</li>
-              <li>Vercel/render</li>
+              <li>Tailwind.css</li>
+              <li>Zapier</li>
+              <li>AWS</li>
             </ul>
             <div className="text-2xl flex gap-4">
               <a
                 className="hover:text-textGreen duration-300"
-                href="https://github.com/kd5200/OpenAI_ChatGPT_rep"
+                href="https://github.com/majorlinkx-io"
                 target="_blank"
               >
                 <TbBrandGithub />
               </a>
               <a
                 className="hover:text-textGreen duration-300"
-                href="https://chatgpt-clone-black.vercel.app/"
+                href="https://www.kandghealthcareconsultingservices.com/"
                 target="_blank"
               >
                 <RxOpenInNewWindow />
