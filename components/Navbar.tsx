@@ -63,14 +63,14 @@ const Navbar = () => {
             <Link
               href="#about"
               onClick={handleScroll}
-              className="flex items-center  font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
+              className="flex items-center  font-medium text-textDark hover:text-textPink cursor-pointer duration-300 nav-link"
             >
               <motion.li
                 initial={{ y: -10, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.1, delay: 0.1 }}
               >
-                <span className="text-textPink">01.</span>About
+                <span className="text-textPink"></span>About
               </motion.li>
             </Link>
             <Link
@@ -83,7 +83,7 @@ const Navbar = () => {
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.1, delay: 0.1 }}
               >
-                <span className="text-textPink">02.</span>Experience
+                <span className="text-textPink"></span>Experience
               </motion.li>
             </Link>
             <Link
@@ -96,7 +96,7 @@ const Navbar = () => {
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.1, delay: 0.1 }}
               >
-                <span className="text-textPink">03.</span>Projects
+                <span className="text-textPink"></span>Projects
               </motion.li>
             </Link>
             <Link
@@ -109,7 +109,7 @@ const Navbar = () => {
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.1, delay: 0.1 }}
               >
-                <span className="text-textPink">04.</span>Contact
+                <span className="text-textPink"></span>Contact
               </motion.li>
             </Link>
           </ul>
