@@ -37,7 +37,9 @@ const Projects = () => {
               app is hosted on <span className="text-textGreen">AWS</span> and
               the only integration used is{" "}
               <span className="text-textGreen">zapier</span> leveraging their
-              webhooks.
+              webhooks. Lastly, I implemented a tag manager onto her website and
+              connected it to GA4 so she she's able to see how users are
+              interacting with her website.
             </p>
             <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
               <li>Next.js</li>
