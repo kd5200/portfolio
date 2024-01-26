@@ -70,7 +70,7 @@ const Navbar = () => {
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.1, delay: 0.1 }}
               >
-                <span className="text-textPink"></span>About
+                About
               </motion.li>
             </Link>
             <Link
@@ -83,7 +83,7 @@ const Navbar = () => {
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.1, delay: 0.1 }}
               >
-                <span className="text-textPink"></span>Experience
+                Experience
               </motion.li>
             </Link>
             <Link
@@ -96,7 +96,7 @@ const Navbar = () => {
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.1, delay: 0.1 }}
               >
-                <span className="text-textPink"></span>Projects
+                Projects
               </motion.li>
             </Link>
             <Link
@@ -109,7 +109,7 @@ const Navbar = () => {
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.1, delay: 0.1 }}
               >
-                <span className="text-textPink"></span>Contact
+                Contact
               </motion.li>
             </Link>
           </ul>

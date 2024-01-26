@@ -32,9 +32,9 @@ const Banner = () => {
         transition={{ duration: 0.5, delay: 0.8 }}
         className="text-base md:max-w-[650px] text-textDark font-medium"
       >
-        I am a self-taught aspiring software developer has a passion for
+        I am a self-taught aspiring software developer that has a passion for
         technology and digital marketing. I have experience in web development,
-        coding, and professional digital marketing experience. I have learned
+        Analytics, and professional digital marketing experience. I have learned
         and built apps using python, javascript, and typescript. I am constantly
         learning new technologies and staying up to date with the latest trends
         in the industry. Lastly, I am highly motivated and eager to learn more
