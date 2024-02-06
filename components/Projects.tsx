@@ -153,27 +153,30 @@ const Projects = () => {
               leveraged <span className="text-textGreen">Next.js</span>. This
               Landing page is also deployed on{" "}
               <span className="text-textGreen">AWS</span> as that is our main
-              cloud provider.{" "}
+              cloud provider. The only difference with this website is that the
+              user could get directions directly from the website leveraging
+              google maps and look at the businesses reviews directly from the
+              website.{" "}
             </p>
             <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
-              <li>Vite</li>
+              <li>Next.js</li>
               <li>Javascript/HTML/CSS</li>
-              <li>OpenAI</li>
-              <li>MongoDB</li>
-              <li>Cloudinary</li>
-              <li>Vercel/render</li>
+              <li>Tailwind.css</li>
+              <li>Typescript</li>
+              <li>Zapier</li>
+              <li>AWS</li>
             </ul>
             <div className="text-2xl flex gap-4">
               <a
                 className="hover:text-textGreen duration-300"
-                href="https://github.com/kd5200/Dalle-clone"
+                href="https://github.com/majorlinkx-io/firstmindcustom.com"
                 target="_blank"
               >
                 <TbBrandGithub />
               </a>
               <a
                 className="hover:text-textGreen duration-300"
-                href="https://dalle-clone-2.vercel.app/"
+                href="https://firstmindcustom.com/"
                 target="_blank"
               >
                 <RxOpenInNewWindow />
