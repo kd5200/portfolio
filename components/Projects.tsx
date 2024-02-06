@@ -130,13 +130,13 @@ const Projects = () => {
         <div className="flex flex-col xl:flex-row gap-6">
           <a
             className="w-full flex flex-col items-center justify-center gap-28 mt-10"
-            href="https://dalle-clone-2.vercel.app/"
+            href="https://firstmindcustom.com/"
             target="_blank"
           >
             <div>
               <img
                 className="w-full h-full object-contain"
-                src="/assets/images/Dalle.png"
+                src="/assets/images/firstmind.png"
                 alt="dalleimg"
               />
             </div>
@@ -145,21 +145,15 @@ const Projects = () => {
             <p className="font-titleFont text-textGreen text-sm tracking-wide">
               Featured Project
             </p>
-            <h3 className="text-2xl font-bold">DALL·E clone</h3>
+            <h3 className="text-2xl font-bold">First Mind Tattoo</h3>
             <p className="border-2 border-pink-500 bg-gray-700 text-sm md:text-base p-2 md:p-6 xl:-ml-32 rounded-md">
-              This project is a DALL·E clone using{" "}
-              <span className="text-textGreen">
-                OpenAI's API as well and MongoDB
-              </span>{" "}
-              to store the AI generated images & posts.{" "}
-              <span className="text-textGreen">DALL·E</span> is a natural
-              extension of GPT-3 that parses text prompts and then responds not
-              with words but in pictures.Simpily it is an AI system that can
-              create realistic images and art from a description in{" "}
-              <span className="text-textGreen">natural language</span>. (
-              <span className="text-yellow-200">Notice</span>: I am using
-              renders' free-tier for server-side deployment so there may be a
-              delay in functioning for this project.)
+              This was a joint project with my business partner creating a
+              landing page for a client of ours who owns a tattoo shop in
+              Jacksonville,FL. With a similar blueprint to the first project, We
+              leveraged <span className="text-textGreen">Next.js</span>. This
+              Landing page is also deployed on{" "}
+              <span className="text-textGreen">AWS</span> as that is our main
+              cloud provider.{" "}
             </p>
             <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
               <li>Vite</li>
