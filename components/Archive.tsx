@@ -16,10 +16,10 @@ const Archive = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-10 lgl:px-10">
         <Archivecard
-          title="Healthcare Consulting"
-          des="This website was created by myself and my business partner for a client in the healthcare industry"
-          listItem={["Next.js", "Tailwind.css", "Javascript"]}
-          link="https://www.kandghealthcareconsultingservices.com/"
+          title="ChatGPT clone"
+          des="This was created as an experiment to replicate OpenAI's chatGPT and see how to impliment their text generation model into an application successfully"
+          listItem={["OpenAI", "Vite.js", "HTML/CSS/JS", "Vercel"]}
+          link="https://github.com/kd5200/OpenAI_ChatGPT_rep"
         />
         <Archivecard
           title="Python to-do app"
