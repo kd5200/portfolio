@@ -14,9 +14,9 @@ const About = () => {
           <p>
             I am an ex-collegiate athlete that attended Pennsylvania State
             University and Florida Atlantic University. As mentioned above, I am
-            a self-taught programmer and my first language conceived was python
-            (in college). Forbye, I am skilled in digital marketing, cloud
-            computing, & digital analysis.
+            a self-taught programmer and my first language conceived was python.
+            Forbye, I am skilled in digital marketing, cloud computing, &
+            digital analysis.
           </p>
           <p>
             The compassion I once had for the game of football has transitioned
@@ -26,7 +26,10 @@ const About = () => {
             team with whom I can collaborate with & assimilate more knowledge,
             skills, and even technical perception from.
           </p>
-          <p>Here are a few technologies I have recently worked with:</p>
+          <p>
+            Here are a few programming languages/frameworks I have recently
+            worked with:
+          </p>
           <ul className="max-w-[450px] text-sm font-titleFont grid grid-cols-2 gap-2 mt-6">
             <li className="flex item-center gap-2">
               <span className="text-textPink">
