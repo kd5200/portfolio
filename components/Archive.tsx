@@ -28,8 +28,8 @@ const Archive = () => {
           link="https://github.com/kd5200/python-todo-app"
         />
         <Archivecard
-          title="First Mind Tattoos"
-          des="This website was built in colaboration with my partner for a client tatoo shop in Jacksonville, FL"
+          title="Weather App"
+          des="This application was built as part of the interview process for a role I am currently interviewing for. This app is currently integrated with 2 3rd party APIs (Google API & OpenWeatherAPI)"
           listItem={["Next.js", "Typescript", "Javascript"]}
           link="https://firstmindcustom.com/"
         />
