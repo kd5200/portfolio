@@ -30,7 +30,7 @@ const Archive = () => {
         <Archivecard
           title="Weather App"
           des="This application was built as part of the interview process for a role I am currently interviewing for. This app is currently integrated with two 3rd party APIs (Google API & OpenWeatherAPI)"
-          listItem={["Python", "Django", "React.js"]}
+          listItem={["Python", "Django", "React.js", "Javascript"]}
           link="https://github.com/kd5200/HMI-Project"
         />
         {showMore && (
