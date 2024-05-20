@@ -115,13 +115,6 @@ const Projects = () => {
               >
                 <TbBrandGithub />
               </a>
-              <a
-                className="hover:text-textGreen duration-300"
-                href="https://hmicalendar.com/"
-                target="_blank"
-              >
-                <RxOpenInNewWindow />
-              </a>
             </div>
           </div>
         </div>
