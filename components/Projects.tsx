@@ -72,7 +72,6 @@ const Projects = () => {
         <div className="flex flex-col xl:flex-row-reverse gap-6">
           <a
             className="w-full flex flex-col items-center justify-center gap-28 mt-10"
-            href="https://hmicalendar.com/"
             target="_blank"
           >
             <div>
