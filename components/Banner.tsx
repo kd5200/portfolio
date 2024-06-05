@@ -34,12 +34,11 @@ const Banner = () => {
       >
         I am a self-taught aspiring software developer that has a passion for
         technology and digital marketing. I have experience in web development,
-        Analytics, and professional digital marketing experience. I have learned
-        and built apps using python, javascript, and typescript. I am constantly
-        learning new technologies and staying up to date with the latest trends
-        in the industry. Lastly, I am highly motivated and eager to learn more
-        about software development and cloud computing from senior developers
-        within a professional environment.{" "}
+        analytics, and digital marketing experience. I have built apps using
+        python, javascript, and typescript. I am constantly learning new
+        technologies and staying up to date with the latest trends in the
+        industry. Lastly, I am highly motivated and eager to take on more
+        projects that may expose me to new challenges and technologies.{" "}
         {/* <a href="https://github.com/kd5200/OpenAI_ChatGPT_rep" target="_blank">
           <span className="text-textGreen inline-flex relative cursor-pointer h-7 overflow-x-hidden group">
             Learn More
