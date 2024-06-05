@@ -14,7 +14,8 @@ const About = () => {
           <p>
             I am an ex-collegiate athlete that attended Pennsylvania State
             University and Florida Atlantic University. As mentioned above, I am
-            a self-taught programmer and my first language conceived was python.
+            a self-taught programmer and my first language conceived was python,
+            which led to the journey of learning javascript and typescript.
             Forbye, I am skilled in digital marketing, cloud computing, &
             digital analysis.
           </p>
@@ -24,7 +25,7 @@ const About = () => {
             knowledge/skills of software has transcended compared to the start
             of my quest. My goal currently, is to work amongst an exceptional
             team with whom I can collaborate with & assimilate more knowledge,
-            skills, and even technical perception from.
+            skills, techniques, and even technical perception from.
           </p>
           <p>
             Here are a few programming languages/frameworks I have recently
