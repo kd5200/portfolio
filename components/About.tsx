@@ -28,7 +28,7 @@ const About = () => {
             skills, techniques, and even technical perception from.
           </p>
           <p>
-            Here are a few programming languages/frameworks I have recently
+            Here are a few programmin languages/frameworks I have recently
             worked with:
           </p>
           <ul className="max-w-[450px] text-sm font-titleFont grid grid-cols-2 gap-2 mt-6">
