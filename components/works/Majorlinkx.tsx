@@ -11,7 +11,7 @@ const Majorlinkx = () => {
       className="w-full"
     >
       <h3 className="flex gap-1 font-medium text-xl font-titleFont">
-        Junior Software Engineer{" "}
+        Software Engineer{" "}
         <span className="text-textGreen tracking-wide">@Majorlinkx</span>
       </h3>
       <p className="text-sm mt-1 font-medium text-textDark">
@@ -37,13 +37,26 @@ const Majorlinkx = () => {
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Troubleshoot issues that are called out within the software we built.{" "}
+          Assist senior developers on web applications infrastructure.{" "}
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
           Integrate 3rd party software with clients web apps.{" "}
+        </li>
+        <li className="text-base flex gap-2 text-textDark">
+          <span className="text-textGreen mt-1">
+            <TiArrowForward />
+          </span>
+          Troubleshoot software issues.{" "}
+        </li>
+        <li className="text-base flex gap-2 text-textDark">
+          <span className="text-textGreen mt-1">
+            <TiArrowForward />
+          </span>
+          Conduct client facing meetings updating our progress on projects and
+          working through questions they may have.{" "}
         </li>
       </ul>
     </motion.div>
