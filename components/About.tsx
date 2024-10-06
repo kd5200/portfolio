@@ -16,16 +16,16 @@ const About = () => {
             University and Florida Atlantic University. As mentioned above, I am
             a self-taught programmer and my first language conceived was python,
             which led to the journey of learning javascript and typescript.
-            Forbye, I am skilled in digital marketing, cloud computing, &
+            Forbye, I am also skilled in digital marketing, cloud computing, &
             digital analysis.
           </p>
           <p>
-            The compassion I once had for the game of football has transitioned
-            to the world of software development & technology entirely. My
-            knowledge/skills of software has transcended compared to the start
-            of my quest. My goal currently, is to work amongst an exceptional
-            team with whom I can collaborate with & assimilate more knowledge,
-            skills, techniques, and even technical perception from.
+            The passion I once had for football has fully transitioned into the
+            world of software development and technology. Over time, my
+            knowledge and skills in software have grown immensely since the
+            beginning of my journey. My current goal is to work with an
+            exceptional team where I can collaborate, learn new skills, acquire
+            techniques, and deepen my technical expertise.
           </p>
           <p>
             Here are a few programming languages/frameworks I have recently
@@ -108,7 +108,7 @@ const About = () => {
               <span className="text-textPink">
                 <AiFillThunderbolt />
               </span>
-              Python 3
+              Python
             </li>
             <li className="flex item-center gap-2">
               <span className="text-textPink">
